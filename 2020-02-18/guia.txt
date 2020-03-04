@@ -1,0 +1,6 @@
+criar formulario pra cadastrar (criar objetos) camisetas
+em um sistema 
+defina a classe de objetos "camiseta"
+no minimo 3 atributos
+nao necessario implementar metodos na classe "camiseta"
+criar a listagem das camisetas cadastradas
