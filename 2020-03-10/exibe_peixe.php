@@ -14,24 +14,24 @@
         </style>
     </head>
     <body>
-        <h1>exibe animal: <b>mamifero</b></h1>
+        <h1>exibe animal: <b>peixes</b></h1>
         <form action="exibe_animal.php" method="post">
             <fieldset>
                 <?php
-                    include_once "mamiferos.php";
+                    include_once "peixes.php";
                     include_once "index.php";
                 ?>
-                <h2>lista de mamiferos: </h2> <br/>
+                <h2>lista de peixes: </h2> <br/>
 
                 <?php
-                    foreach($_SESSION["mamiferos"] as $i=>$m){
+                    foreach($_SESSION["peixes"] as $i=>$m){
                         echo "
                         especie: ". $m->especie() ." <br/>
                         peso: ". $m->peso() ." <br/>
                         comprimento: ". $m->comprimento() ." <br/>
                         altura: ". $m->altura() ." <br/>
                         cor: ". $m->cor() ." <br/>
-                        v_max: ". $m->v_max() ." <br/>";
+                        tm_sobrevive: ". $m->tm_sobrevive() ." <br/>";
                     }
                 ?>
             </fieldset>

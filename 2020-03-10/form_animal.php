@@ -8,6 +8,8 @@
         <title>formulario animal </title>
     </head>
     <body>
+        <a href="destruir_session.php">encerrar session</a>
+        <hr/>
         <h1>cadastrar animal</h1>
         <form action="form_animal.php" method="post">
             <?php

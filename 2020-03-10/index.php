@@ -10,7 +10,7 @@
 
     if($tipo == "mamifero"){
         $mam = new Mamiferos($_POST["tipo"], $_POST["peso"], $_POST["comprimento"], $_POST["altura"], $_POST["cor"], $_POST["especie"], $_POST["v_max"]);
-        $_SESSION["mamiferos"][] = $m;
+        $_SESSION["mamiferos"][] = $mam;
         $_SESSION["cont"] = 1;
         header("Location:form_animal.php");
 

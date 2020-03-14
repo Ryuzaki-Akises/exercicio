@@ -17,6 +17,8 @@
         </style>
     </head>
     <body>
+        <a href="destruir_session.php">encerrar session</a>
+        <hr/>
         <h1>cadastrar animal</h1>
         <form action="instanciar.php" method="post">
             <fieldset>
