@@ -3,13 +3,9 @@
     class Anfibios extends Animal{
         public $t_max_submerso;
 
-        public function __construct($an, $p, $cp, $h, $c, $e){
+        public function __construct($p, $cp, $h, $c, $e, $an){
+            parent::__construct($p, $cp, $h, $c, $e);
             $this->t_max_submerso = $an;
-            $this->peso = $p;
-            $this->comprimento = $cp;
-            $this->altura = $h;
-            $this->cor = $c;
-            $this->especie = $e;
         }
     }
 ?>

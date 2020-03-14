@@ -17,6 +17,7 @@
         <h1>cadastro do animal tipo: <b>repteis</b></h1>
         <form action="index.php" method="post">
             <fieldset>
+                <input type="hidden" hidden="hidden" name="tipo" value="reptil" />
                 <br/>
                 <input type="text" name="peso" placeholder="peso" />
                 <input type="text" name="comprimento" placeholder="comprimento" />
@@ -27,7 +28,6 @@
                 <input type="text" name="especie" placeholder="especie" />
                 <input type="text" name="t_max_submerso" placeholder="tempo maximo submerso" />
                 <br/><br/><br/>
-                <input type="hidden" hidden="hidden" name="tipo" value="reptil" />
                 <input type="submit" value="enviar" />
             </fieldset>
         </form>
